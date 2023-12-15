@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dentalclinic"
+version = "0.1.0"
+description = "Dental Clinic Management System"
+authors = ["Beshr Alghalil <beshr.alghalil@extern.intenta.de>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django4django = "^0.0.2"
+djangorestframework-filters = "^0.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
